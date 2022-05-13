@@ -27,6 +27,10 @@ public class Coordinates : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        DisplayCoordinates();
+        UpdateObjectName();
+
         if (!Application.isPlaying)
         {
             DisplayCoordinates();
