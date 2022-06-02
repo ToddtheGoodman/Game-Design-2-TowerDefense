@@ -15,13 +15,14 @@ public class Coordinates : MonoBehaviour
     void Awake()
     {
         label = GetComponent<TextMeshPro>();
-       // DisplayCoordinates();
+        DisplayCoordinates();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        DisplayCoordinates();
+        UpdateObjectName();
     }
 
     // Update is called once per frame
@@ -48,7 +49,7 @@ public class Coordinates : MonoBehaviour
 
     void UpdateObjectName()
     {
-        transform.parent.parent.name = coordinates.ToString();
+        transform.parent.name = coordinates.ToString();
     }
 
 }

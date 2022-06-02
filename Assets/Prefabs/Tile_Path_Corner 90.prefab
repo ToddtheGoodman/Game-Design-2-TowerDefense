@@ -75,5 +75,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile_Path_Corner 90
       objectReference: {fileID: 0}
+    - target: {fileID: 8466294483831999546, guid: e744d745fc05db349831cf31be6f47a7, type: 3}
+      propertyPath: isClickable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e744d745fc05db349831cf31be6f47a7, type: 3}

@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2721590849307826921, guid: bb22b9a35405a13488f78ce56f3464fb, type: 3}
+      propertyPath: isClickable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3569921379455071816, guid: bb22b9a35405a13488f78ce56f3464fb, type: 3}
       propertyPath: m_Name
       value: Tile_Path_Straight
